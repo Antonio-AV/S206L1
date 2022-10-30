@@ -54,7 +54,7 @@ Abrir cypress pela linha de comando:
 Rodar specs por linha de comando:
 ./node_modules/.bin/cypress run --spec 'cypress/e2e/**/'
 
-Para gerar um report HTML, siga os 2 comandos abaixo:
+Para gerar um report HTML, siga os 4 passos abaixo:
 
 1. Adicionando as dependências necessárias para gerar o reporte de testes:
 npm i --save-dev cypress-mochawesome-reporter
