@@ -8,4 +8,5 @@ Scenario: Testando retorno people/1/.
 Scenario: Testando retorno people/1/ com informações inválidas.
         Given url 'https://swapi.dev/api/people/1/1234'
         When method get
-        Then status 404     
+        Then status 404
+        
